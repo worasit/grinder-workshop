@@ -5,8 +5,7 @@ from net.grinder.script import Test
 # defining a simple "hello world" function, in order to have something to test
 def hello_world():
     thread = grinder.getThreadNumber()
-    print
-    '> worker thread %d: hello world!' % thread
+    print('> worker thread %s: hello world! \n' % thread)
 
 
 class TestRunner:
