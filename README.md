@@ -2,5 +2,5 @@
 Execute hello application
 
 ```shell script
-./startAgent.sh hello.properties
+./startAgent.sh example/hello.properties
 ```
